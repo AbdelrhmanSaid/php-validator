@@ -1,8 +1,8 @@
 <?php
 
-namespace Redot\Validator;
+namespace AbdelrhmanSaid\Validator;
 
-use Redot\Validator\Contracts\Rule;
+use AbdelrhmanSaid\Validator\Contracts\Rule;
 
 abstract class AbstractRule implements Rule
 {

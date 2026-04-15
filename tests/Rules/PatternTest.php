@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Pattern: valid case', function () {
     expect(Validator::pattern('test', '/^[a-z]+$/'))->toBe(true);

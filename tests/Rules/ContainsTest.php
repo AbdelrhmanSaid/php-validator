@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Contains: valid case (string)', function () {
     expect(Validator::contains('abc', 'a', 'b'))->toBe(true);

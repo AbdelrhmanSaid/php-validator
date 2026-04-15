@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Date: valid case', function () {
     expect(Validator::date('2020-01-01'))->toBe(true);

@@ -1,12 +1,12 @@
 <?php
 
-namespace Redot\Validator;
+namespace AbdelrhmanSaid\Validator;
 
 use JetBrains\PhpStorm\Pure;
-use Redot\Validator\Contracts\Validator as ValidatorContract;
-use Redot\Validator\Errors\InvalidRuleException;
-use Redot\Validator\Errors\RuleNotFoundException;
-use Redot\Validator\Errors\DuplicateRuleException;
+use AbdelrhmanSaid\Validator\Contracts\Validator as ValidatorContract;
+use AbdelrhmanSaid\Validator\Errors\InvalidRuleException;
+use AbdelrhmanSaid\Validator\Errors\RuleNotFoundException;
+use AbdelrhmanSaid\Validator\Errors\DuplicateRuleException;
 
 /**
  * @method static Validator alpha()

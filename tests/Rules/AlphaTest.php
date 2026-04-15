@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Alpha: valid case', function () {
     expect(Validator::alpha('test'))->toBe(true);

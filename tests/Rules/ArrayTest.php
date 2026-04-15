@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Array: valid case', function () {
     expect(Validator::array(['foo', 'bar']))->toBe(true);

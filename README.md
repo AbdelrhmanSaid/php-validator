@@ -1,13 +1,13 @@
 # PHP Validator
 
-[![tests](https://github.com/redot-src/php-validator/actions/workflows/php.yml/badge.svg)](https://github.com/redot-src/php-validator/actions/workflows/php.yml)
+[![tests](https://github.com/AbdelrhmanSaid/php-validator/actions/workflows/php.yml/badge.svg)](https://github.com/AbdelrhmanSaid/php-validator/actions/workflows/php.yml)
 
 *Validation library lets you configure, rather than code, your validation logic.*
 
 ## Installation
 
 ```sh
-composer require redot/validator
+composer require abdelrhmansaid/validator
 ```
 
 ## Testing
@@ -21,7 +21,7 @@ composer test
 After registering the rules that you want to use, you can use the validator like this:
 
 ```php
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 /* Instantiate a new validator */
 $validator = new Validator($email);
@@ -63,7 +63,7 @@ $isEmail = Validator::email('admin@example.com'); // true
 The validator came without any registered rules by default. You can add them by using the `Validator::addRule()` method.
 
 ```php
-use Redot\Validator\Rules\RequiredRule;
+use AbdelrhmanSaid\Validator\Rules\RequiredRule;
 
 Validator::addRule(RequiredRule::class);
 ```

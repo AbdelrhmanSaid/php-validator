@@ -1,9 +1,9 @@
 <?php
 
-namespace Redot\Validator\Rules;
+namespace AbdelrhmanSaid\Validator\Rules;
 
 use ArgumentCountError;
-use Redot\Validator\AbstractRule;
+use AbdelrhmanSaid\Validator\AbstractRule;
 
 class MaxRule extends AbstractRule
 {

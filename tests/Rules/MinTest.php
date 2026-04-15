@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Min: valid case (number)', function () {
     expect(Validator::min(6, 5))->toBe(true);

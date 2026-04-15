@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Each: valid case', function () {
     expect(Validator::each([1, 2, 3], fn ($a) => is_numeric($a)))->toBe(true);

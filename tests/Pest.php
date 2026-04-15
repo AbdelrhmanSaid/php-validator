@@ -1,5 +1,5 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 Validator::loadDefaultRules();

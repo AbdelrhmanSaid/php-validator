@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Between: valid case', function () {
     expect(Validator::between(5, 1, 10))->toBe(true);

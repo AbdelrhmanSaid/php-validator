@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('JSON: valid case', function () {
     expect(Validator::json('{"foo":"bar"}'))->toBe(true);

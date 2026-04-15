@@ -1,6 +1,6 @@
 <?php
 
-use Redot\Validator\Validator;
+use AbdelrhmanSaid\Validator\Validator;
 
 test('Required: valid case', function () {
     expect(Validator::required('foo'))->toBe(true);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Redot\Validator;
+namespace AbdelrhmanSaid\Validator;
 
 use Stringable;
 

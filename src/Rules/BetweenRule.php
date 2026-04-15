@@ -1,8 +1,8 @@
 <?php
 
-namespace Redot\Validator\Rules;
+namespace AbdelrhmanSaid\Validator\Rules;
 
-use Redot\Validator\AbstractRule;
+use AbdelrhmanSaid\Validator\AbstractRule;
 
 class BetweenRule extends AbstractRule
 {

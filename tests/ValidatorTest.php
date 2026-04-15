@@ -1,11 +1,11 @@
 <?php
 
-use Redot\Validator\Validator;
-use Redot\Validator\AbstractRule;
-use Redot\Validator\Errors\InvalidRuleException;
-use Redot\Validator\Errors\RuleNotFoundException;
-use Redot\Validator\Errors\DuplicateRuleException;
-use Redot\Validator\Rules\MinRule;
+use AbdelrhmanSaid\Validator\Validator;
+use AbdelrhmanSaid\Validator\AbstractRule;
+use AbdelrhmanSaid\Validator\Errors\InvalidRuleException;
+use AbdelrhmanSaid\Validator\Errors\RuleNotFoundException;
+use AbdelrhmanSaid\Validator\Errors\DuplicateRuleException;
+use AbdelrhmanSaid\Validator\Rules\MinRule;
 
 class EqualsOne extends AbstractRule
 {

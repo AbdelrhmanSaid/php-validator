@@ -1,15 +1,15 @@
 {
-    "name": "redot/validator",
+    "name": "abdelrhmansaid/validator",
     "description": "Validation framework lets you configure, rather than code, your validation logic.",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/redot-src/php-validator/issues",
-        "source": "https://github.com/redot-src/php-validator"
+        "issues": "https://github.com/AbdelrhmanSaid/php-validator/issues",
+        "source": "https://github.com/AbdelrhmanSaid/php-validator"
     },
-    "keywords": ["php", "validation", "validator", "redot"],
+    "keywords": ["php", "validation", "validator", "abdelrhmansaid"],
     "autoload": {
         "psr-4": {
-            "Redot\\Validator\\": "./src"
+            "AbdelrhmanSaid\\Validator\\": "./src"
         }
     },
     "require": {

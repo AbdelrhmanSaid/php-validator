@@ -1,6 +1,6 @@
 <?php
 
-namespace Redot\Validator\Errors;
+namespace AbdelrhmanSaid\Validator\Errors;
 
 use Exception;
 
